@@ -5,7 +5,8 @@
  
     <container default="true" qualifier="glassfish">
         <configuration>
-            <property name="sunResourcesXml">src/main/setup/glassfish-resources.xml</property> 
+            <property name="sunResourcesXml">src/test/resources-glassfish-embedded/glassfish-resources.xml</property>
+            <!--<property name="sunResourcesXml">src/main/setup/glassfish-resources.xml</property> -->
         </configuration>
     </container>
 </arquillian>
