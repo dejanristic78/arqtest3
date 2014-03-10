@@ -25,7 +25,7 @@ public class Test1 {
             .addClasses(FacadeBean.class, SomePerson.class)
                 .addAsManifestResource("test-persistence.xml", ArchivePaths.create("persistence.xml"))
             //.addAsManifestResource("META-INF/persistence.xml", ArchivePaths.create("persistence.xml"))
-            .addAsManifestResource("META-INF/beans.xml", ArchivePaths.create("beans.xml"));
+            .addAsManifestResource("WEB-INF/beans.xml", ArchivePaths.create("beans.xml"));
     }
  
     @EJB

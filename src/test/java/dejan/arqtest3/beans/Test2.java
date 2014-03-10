@@ -18,7 +18,7 @@ public class Test2 {
     public static JavaArchive createArchiveAndDeploy() {
         return ShrinkWrap.create(JavaArchive.class)
             .addClasses(CDIBean.class, MyPojo.class, MyEJB.class, JSFBean.class)
-            .addAsManifestResource("META-INF/beans.xml", ArchivePaths.create("beans.xml"));
+            .addAsManifestResource("WEB-INF/beans.xml", ArchivePaths.create("beans.xml"));
     }
     
     @Inject
