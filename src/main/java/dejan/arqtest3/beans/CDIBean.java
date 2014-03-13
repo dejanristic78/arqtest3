@@ -6,13 +6,11 @@
 
 package dejan.arqtest3.beans;
 
-import dejan.arqtest3.log.Logged;
 import javax.enterprise.context.RequestScoped;
 import javax.inject.Named;
 
 @RequestScoped
 public class CDIBean {
-    @Logged
     public String getMessage() {
         return "Message from CDIBean";
     }
